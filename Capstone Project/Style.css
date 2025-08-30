@@ -1,0 +1,150 @@
+body {
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    font-size: 20px;
+  }
+}
+
+body {
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+.top-container {
+  background-color: #fff0c4;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+  height: 200px;
+  width: 200px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+  height: 200px;
+  width: 200px;
+}
+
+h1 {
+  color: #78c841;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.mountain {
+  position: absolute;
+  height: 250px;
+  width: 200px;
+}
+
+img {
+  overflow: clip;
+}
+
+.me {
+  border-radius: 50%;
+  height: 200px;
+}
+
+h2 {
+  color: #78c841;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: repeat(1, 1fr);
+  text-align: left;
+  width: 50px;
+  margin-left: 30%;
+  row-gap: 2rem;
+}
+
+h3 {
+  color: #78c841;
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
+.contact-me {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+  background-color: #78c841;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.bottom-container {
+  background-color: #78c841;
+  padding: 50px 0 20px;
+}
+
+a {
+  color: #78c841;
+  font-family: ;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.copy-right {
+  color: white;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+p {
+  line-height: 2;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+.footer-link {
+  color: white;
+}
